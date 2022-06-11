@@ -1,0 +1,20 @@
+[
+    {
+        "model": "raterapi.rategame",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+			"rating":5,
+			"player": 1
+        }
+    },
+    {
+        "model": "raterapi.rategame",
+        "pk": 2,
+        "fields": {
+            "game": 1,
+			"rating":4,
+			"player": 2
+        }
+    }
+]

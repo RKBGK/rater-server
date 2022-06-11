@@ -1,0 +1,30 @@
+[
+    {
+        "model": "raterapi.game",
+        "pk": 1,
+        "fields": {
+           
+            "title": "MineCraft",
+			"maker": "MineCraft",
+            "release_date": "2020-08-29",
+            "game_image":"",
+            "game_url":"www.cnn.com",
+            "game_type": 1,
+			"registrant": 1
+        }
+    },
+    {
+        "model": "raterapi.game",
+        "pk": 2,
+        "fields": {
+           
+            "title": "Wii",
+			"maker": "Nintendo",
+            "release_date": "2020-08-29",
+            "game_image":"",
+            "game_url":"www.cnn.com",
+            "game_type": 2,
+			"registrant": 1
+        }
+    }
+]

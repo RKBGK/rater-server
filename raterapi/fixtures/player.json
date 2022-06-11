@@ -1,0 +1,18 @@
+[
+    {
+        "model": "raterapi.player",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "bio": "me"
+        }
+    },
+    {
+        "model": "raterapi.player",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "bio": "user2"
+        }
+    }
+]

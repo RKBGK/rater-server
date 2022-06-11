@@ -1,0 +1,20 @@
+[
+    {
+        "model": "raterapi.reviewgame",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+			"review":"Nice and exciting",
+			"player": 1
+        }
+    },
+    {
+        "model": "raterapi.reviewgame",
+        "pk": 2,
+        "fields": {
+            "game": 1,
+			"review":"Challenging",
+			"player": 2
+        }
+    }
+]

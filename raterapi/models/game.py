@@ -1,7 +1,9 @@
+from sre_constants import CATEGORY
 from django.db import models
 
 from raterapi.models.game_type import GameType
 from raterapi.models.player import Player
+from raterapi.models.category import Category
 
 # installed pillow library
 
@@ -14,6 +16,7 @@ class Game(models.Model):
     game_url = models.URLField(max_length=500, default=None)
     game_type= models.ForeignKey(GameType, on_delete=models.CASCADE)
     registrant= models.ForeignKey(Player, on_delete=models.CASCADE)
+    categories = models.ManyToManyField(Category)
     
     
     

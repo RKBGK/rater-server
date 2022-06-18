@@ -33,7 +33,7 @@ class GameSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Game
-        fields = ('id', 'title','maker','release_date','game_image','game_url', 'game_type','registrant')
+        fields = ('id', 'title','maker','release_date','game_image','game_url', 'game_type','registrant','categories')
         depth = 2
         
 class CreatteGameSerializer(serializers.ModelSerializer):
